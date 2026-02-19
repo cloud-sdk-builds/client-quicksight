@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-quicksight`](https://www.npmjs.com/package/@aws-sdk/client-quicksight/v/3.105.0).
+[`@aws-sdk/client-quicksight`](https://www.npmjs.com/package/@aws-sdk/client-quicksight/v/3.109.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.105.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.109.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-MFm7Td+EdULJyooWmdym9zBfnFVq5Ifnq5uh55eMWs0hGiyGy4l9pHU8Hk4fN3TB
+sha384-/tnZ+1kOipAqc1IZmWuQJ2Ds5pmNGZVDEGW/5wliEcqt4N/V4TIKj+XO4bFmpw6y
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-quicksight": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.105.0/index.min.mjs"
+            "@aws-sdk/client-quicksight": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.109.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.105.0/index.min.mjs": "sha384-MFm7Td+EdULJyooWmdym9zBfnFVq5Ifnq5uh55eMWs0hGiyGy4l9pHU8Hk4fN3TB"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.109.0/index.min.mjs": "sha384-/tnZ+1kOipAqc1IZmWuQJ2Ds5pmNGZVDEGW/5wliEcqt4N/V4TIKj+XO4bFmpw6y"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-quicksight": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.105.0/index.min.mjs"
+                        "@aws-sdk/client-quicksight": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.109.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.105.0/index.min.mjs": "sha384-MFm7Td+EdULJyooWmdym9zBfnFVq5Ifnq5uh55eMWs0hGiyGy4l9pHU8Hk4fN3TB"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-quicksight@3.109.0/index.min.mjs": "sha384-/tnZ+1kOipAqc1IZmWuQJ2Ds5pmNGZVDEGW/5wliEcqt4N/V4TIKj+XO4bFmpw6y"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.105.0`)
+* Always pin to a specific version (`@3.109.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-quicksight/blob/refs/tags/3.105.0/LICENSE
+https://github.com/cloud-sdk-builds/client-quicksight/blob/refs/tags/3.109.0/LICENSE
 ```
 
 ---
